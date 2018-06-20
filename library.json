@@ -1,6 +1,6 @@
 {
-  "machineName": "H5PEditor.SingleChoiceSetEditor",
-  "title": "H5P Editor Single Choice Set Editor",
+  "machineName": "H5PEditor.SingleChoiceSetTextualEditor",
+  "title": "H5P Editor Single Choice Set Textual Editor",
   "license": "MIT",
   "author": "Joubel",
   "majorVersion": 1,

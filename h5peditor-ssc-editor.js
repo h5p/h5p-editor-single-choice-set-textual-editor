@@ -1,7 +1,7 @@
 /** @namespace H5PEditor */
 var H5PEditor = H5PEditor || {};
 
-H5PEditor.SingleChoiceSetEditor = (function ($) {
+H5PEditor.SingleChoiceSetTextualEditor = (function ($) {
 
   /**
    * Creates a text input widget for editing ssc.
@@ -197,7 +197,7 @@ H5PEditor.SingleChoiceSetEditor = (function ($) {
    * @returns {String}
    */
   var t = function (identifier, placeholders) {
-    return H5PEditor.t('H5PEditor.SingleChoiceSetEditor', identifier, placeholders);
+    return H5PEditor.t('H5PEditor.SingleChoiceSetTextualEditor', identifier, placeholders);
   };
 
   /**
@@ -210,7 +210,7 @@ H5PEditor.SingleChoiceSetEditor = (function ($) {
 
 
 // Add translations
-H5PEditor.language['H5PEditor.SingleChoiceSetEditor'] = {
+H5PEditor.language['H5PEditor.SingleChoiceSetTextualEditor'] = {
   'libraryStrings': {
     'helpText': 'Create blocks of question and answers, where each block is separated by an empty line. In each block the first line is the question, the other lines contains the answers. The first answer is the correct one',
     'example': '2 + 2 = ?\n4\n6\n8\n\n3 + 3= ?\n6\n9\n0\n\n',
