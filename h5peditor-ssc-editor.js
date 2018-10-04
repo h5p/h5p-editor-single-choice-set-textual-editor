@@ -127,7 +127,7 @@ H5PEditor.SingleChoiceSetTextualEditor = (function ($) {
               // Strip all html tags and remove line breaks.
               html = html.replace(/(<[^>]*>|\r\n|\n|\r)/gm, '').trim();
               if (html !== '') {
-               text += html + '\n';
+                text += html + '\n';
               }
             }
             break;
