@@ -22,6 +22,8 @@ H5PEditor.SingleChoiceSetTextualEditor = (function ($) {
 
     // Create list html
     var $input = $('<textarea/>', {
+      id: list.getId(),
+      'aria-describedby': list.getDescriptionId(),
       rows: 20,
       css: {
         resize: 'none'
