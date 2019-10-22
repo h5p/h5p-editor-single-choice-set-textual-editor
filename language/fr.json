@@ -1,0 +1,7 @@
+{
+  "libraryStrings" : {
+    "helpText": "Créez des blocs de questions et réponses, où chaque bloc est séparé par une ligne vide. Dans chaque bloc, la première ligne est la question, l'autre ligne contient les réponses. La première réponse est la bonne",
+    "example": "2 + 2 = ?\n4\n6\n8\n\n3 + 3= ?\n6\n9\n0\n\n\n",
+    "warning": "Attention ! Si vous modifiez les tâches dans l'éditeur de texte, tous les formats de texte riche (y compris les sauts de ligne) seront supprimés."
+  }
+}
