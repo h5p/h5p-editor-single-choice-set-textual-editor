@@ -28,7 +28,7 @@ H5PEditor.SingleChoiceSetTextualEditor = (function ($) {
       css: {
         resize: 'none'
       },
-      placeholder: t('example'),
+      placeholder: "2 + 2 = ?\n4\n6\n8\n\n3 + 3= ?\n6\n9\n0\n\n",
       on: {
         change: function () {
           recreateList();
